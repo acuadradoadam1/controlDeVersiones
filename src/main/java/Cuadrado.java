@@ -34,5 +34,13 @@ public class Cuadrado implements FiguraGeometrica
     public void area() 
     {
         areaCuadrado = lado * lado;
-    }    
+    }
+
+    @Override
+    public String toString() {
+        return "Cuadrado{" +
+                "lado=" + lado +
+                ", areaCuadrado=" + areaCuadrado +
+                '}';
+    }
 }
